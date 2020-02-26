@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title> TEST </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body class="p-3 mb-2 bg-dark text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-18 col-md-12 themed-grid-col">
+                <div class="alert alert-primary" role="alert">
+                    <h4 class="alert-heading">TESTEO DE CHATBOTS</h4>
+                </div>
+            </div>
+            <div class="col-4 col-md-2 themed-grid-col">
+                <div class="btn-group-vertical">
+                    <button id="btn1" class= "btn btn-primary" value="https://console.dialogflow.com/api-client/demo/embedded/8fe73b49-c32e-4c8d-bfd7-987193825f72">Sepomex</button>
+                    <button id="btn2" class= "btn btn-primary" value="https://console.dialogflow.com/api-client/demo/embedded/c6707649-4cd0-4a97-ac4b-36144b2d0652">Sepomex T</button>
+                    <button id="btn3" class= "btn btn-primary" value="https://console.dialogflow.com/api-client/demo/embedded/e735d0fb-4282-40b1-b3a8-19845b2d39a6">Grupo Vanguardia</button>
+                    <button id="btn4" class= "btn btn-primary" value="https://console.dialogflow.com/api-client/demo/embedded/751ebc75-a38d-4939-b3be-edf9da3e9c14">Grupo Vanguardia T</button>
+                </div>
+            </div>
+            <div class="col-8 col-md-6 themed-grid-col">
+                    <iframe
+                        class="embed-responsive-item"
+                        name="conten-bot"
+                        id="conten-bot"
+                        allow="microphone;"
+                        src="{{url}}"
+                        height="85%"
+                        width="100%">
+                    </iframe>
+            </div>
+            <div class="col-6 col-md-4 themed-grid-col">
+                <form method="POST">
+                    <div class="form-group">
+                        <input  type="text" name="urlOculta" id="urlOculta" value="{{url}}" hidden="true">
+                        <label>NOMBRE DEL BOT</label>
+                        <input class="form-control" id="nombre" name="nombre" type="text" value="{{nombre}}">
+                    </div>
+                        <label class="form-check-label">SATISFACTORIO</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="satis" id="si" value="true" checked>
+                        <label class="form-check-label" for="satis" >SI</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="satis" id="no" value="false">
+                        <label class="form-check-label" for="satis">NO</label>
+                    </div>
+                    <div class="form-group">
+                        <label for="come">Comentario</label>
+                        <textarea name="comen" class="form-control"></textarea>
+                        <label for="uno">Usuario</label>
+                        <textarea name="uno" class="form-control"></textarea>
+                        <label for="dos">Bot</label>
+                        <textarea name="dos" class="form-control"></textarea>
+                        <label for="tres">usuario</label>
+                        <textarea name="tres" class="form-control"></textarea>
+                        <label for="cuatro">bot</label>
+                        <textarea name="cuatro" class="form-control"></textarea>
+                    </div>
+                        <input type="submit" name="boton" class="btn btn-outline-success" value="Guardar">
+                </form>
+            </div>
+            <div class="col-18 col-md-12 themed-grid-col">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="consultas">RESULTADOS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/controlador.js')}}"></script>
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,213 @@
+{
+  "baseDeIncidencias": [
+    {
+      "true": {
+        "comentario": "parece ser que si identifica la intenci\u00f3n de un contrato",
+        "Usuario": "Buenos dias, me gustaria formar una alianza comercial con su empresa",
+        "Bot": "Entiendo. Espera en el chat, te atender\u00e1 un ejecutivo. Si quieres hablar conmigo otra vez, s\u00f3lo escribe 'chatbot'",
+        "usuario": "gracias, por favor quisiera saber costos de los servicios de telemarketing",
+        "bot": "(Operador)",
+        "fecha": "02/18/20",
+        "hora": "13:01:25"
+      }
+    },
+    {
+      "false": {
+        "comentario": "apesar de acortar la entrada del usuario, el bot no lo identifica",
+        "Usuario": "Buenas tardes, quisiera una cotizacion para un servicio de telemarketing por el periodod de 1 mes, gracias.",
+        "Bot": "\u00bfPodr\u00edas ser m\u00e1s espec\u00edfico?",
+        "usuario": "Buenas tardes, quisiera una cotizacion para un servicio de telemarketing por el periodod de 1 mes",
+        "bot": "\u00bfPodr\u00edas ser m\u00e1s espec\u00edfico?",
+        "fecha": "02/18/20",
+        "hora": "13:03:46"
+      }
+    },
+    {
+      "true": {
+        "comentario": "identifico las entidades de leads ventas",
+        "Usuario": "Me podr\u00edas proporcionar un contacto al cu\u00e1l solicitar una cotizaci\u00f3n para contratar sus servicios de call Center para Servicio a clientes?",
+        "Bot": "Para nosotros es muy importante comprender que servicio requiere cada empresa. Contamos con servicios como, Contact Center, Servicios BPO, Back Office, Mesa de Servicios, Telemarketing, Encuestas Telef\u00f3nicas, Cobranza, Fieldmarketing, CiberSeguridad.",
+        "usuario": "Gracias! Me urge un poco, as\u00ed que agradecer\u00eda que fuera lo m\u00e1s pronto posible Muchas gracias!",
+        "bot": "Entiendo. Espera en el chat, te atender\u00e1 un ejecutivo. Si quieres hablar conmigo otra vez, s\u00f3lo escribe 'chatbot'",
+        "fecha": "02/18/20",
+        "hora": "13:05:54"
+      }
+    },
+    {
+      "false": {
+        "comentario": "el primero si lo identifico como leads ventas pero el segundo no",
+        "Usuario": "Buenas tardes Ustedes prestan servicios en Ingles?",
+        "Bot": "Para nosotros es muy importante comprender que servicio requiere cada empresa. Contamos con servicios como, Contact Center, Servicios BPO, Back Office, Mesa de Servicios, Telemarketing, Encuestas Telef\u00f3nicas, Cobranza, Fieldmarketing, CiberSeguridad.",
+        "usuario": "Buen dia, solicito informaci\u00f3n y cotizaci\u00f3n por la renta del servicio de call center, la renta de este servicio seria en un horario 24/7, con reporte de llamada atentida, quedo a espera de sus comentarios.",
+        "bot": "Buenas tardes Ustedes prestan servicios en Ingles?\r\nPara nosotros es muy importante comprender que servicio requiere cada empresa. Contamos con servicios como, Contact Center, Servicios BPO, Back Office, Mesa de Servicios, Telemarketing, Encuestas Telef\u00f3nicas, Cobranza, Fieldmarketing, CiberSeguridad.\r\nBuen dia, solicito informaci\u00f3n y cotizaci\u00f3n por la renta del servicio de call center, la renta de este servicio seria en un horario 24/7, con reporte de llamada atentida, quedo a espera de sus comentarios.\r\nHola. Soy el asistente virtual de Grupo Vanguardia. Puedo ayudarte con informaci\u00f3n de la empresa, y tambi\u00e9n atender algunas de tus solicitudes, como aplicar a vacantes o a los servicios que ofrecemos. \u00bfEn qu\u00e9 te puedo ayudar?",
+        "fecha": "02/18/20",
+        "hora": "13:07:59"
+      }
+    },
+    {
+      "true": {
+        "comentario": "identifico leads vacantes",
+        "Usuario": "Buena tarde\r\nbusco capacitacion para Call Center\r\n15:47\r\ntrabajo para una empresa de Servicios y tenemos un centro de atencion al cliente\r\ny requiero tecnificar\r\nme podrias ayudasr",
+        "Bot": "Si tenemos vacantes, con tus datos nos podemos poner en contacto contigo para dar inicio a un proceso de reclutamiento. Dime cu\u00e1l es tu nombre",
+        "usuario": "quiero trabajar",
+        "bot": "Si tenemos vacantes, con tus datos nos podemos poner en contacto contigo para dar inicio a un proceso de reclutamiento. Dime cu\u00e1l es tu nombre",
+        "fecha": "02/18/20",
+        "hora": "13:09:36"
+      }
+    },
+    {
+      "false": {
+        "comentario": "si no esta bien escrito, no identifica la seccion de leads vacantes",
+        "Usuario": "cuales son los beneficios como enpleado",
+        "Bot": "Hola. Soy el asistente virtual de Grupo Vanguardia. Puedo ayudarte con informaci\u00f3n de la empresa, y tambi\u00e9n atender algunas de tus solicitudes, como aplicar a vacantes o a los servicios que ofrecemos. \u00bfEn qu\u00e9 te puedo ayudar?",
+        "usuario": "que beneficios ofrecen como empleado?",
+        "bot": "Si tenemos vacantes, con tus datos nos podemos poner en contacto contigo para dar inicio a un proceso de reclutamiento. Dime cu\u00e1l es tu nombre",
+        "fecha": "02/18/20",
+        "hora": "13:12:27"
+      }
+    },
+    {
+      "false": {
+        "comentario": "no reconoci\u00f3 el leads ventas y no se present\u00f3 como bot",
+        "Usuario": "ERES UNA MAQUINA",
+        "Bot": "\u00bfPodr\u00edas ser m\u00e1s espec\u00edfico?",
+        "usuario": "precio",
+        "bot": "\u00bfPodr\u00edas ser m\u00e1s espec\u00edfico?",
+        "fecha": "02/18/20",
+        "hora": "13:15:39"
+      }
+    },
+    {
+      "false": {
+        "comentario": "manda con agente en vez de pedir datos como lead de ventas",
+        "Usuario": "Hola \u00bfUstedes tiene el servicio de atenci\u00f3n a clientes como agentes?",
+        "Bot": "Entiendo. Espera en el chat, te atender\u00e1 un ejecutivo. Si quieres hablar conmigo otra vez, s\u00f3lo escribe 'chatbot'",
+        "usuario": "Buenos dias, me gustaria formar una alianza comercial con su empresa",
+        "bot": "(Operador)",
+        "fecha": "02/18/20",
+        "hora": "13:17:44"
+      }
+    },
+    {
+      "true": {
+        "comentario": "identifico lead ventas, pero no el segundo, que no es un lead predefinido",
+        "Usuario": "Mira, estoy buscando trabajo en el centro de llamadas, \u00bfpuedes explicar c\u00f3mo puedo hacer",
+        "Bot": "Si tenemos vacantes, con tus datos nos podemos poner en contacto contigo para dar inicio a un proceso de reclutamiento. Dime cu\u00e1l es tu nombre",
+        "usuario": "Hola C\u00f3mo funciona su sistema?",
+        "bot": "\u00bfPodr\u00edas ser m\u00e1s espec\u00edfico?",
+        "fecha": "02/18/20",
+        "hora": "13:23:02"
+      }
+    },
+    {
+      "true": {
+        "comentario": "hizo macht correctamente",
+        "Usuario": "hola necesito una cotizacion pero me urge",
+        "Bot": "Hola. Soy el asistente virtual de Grupo Vanguardia. Puedo ayudarte con informaci\u00f3n de la empresa, y tambi\u00e9n atender algunas de tus solicitudes, como aplicar a vacantes o a los servicios que ofrecemos. \u00bfEn qu\u00e9 te puedo ayudar?",
+        "usuario": "si ocupo ayuda",
+        "bot": "Puedo atender varias de tus dudas m\u00e1s comunes sobre los servicios de Grupo Vanguardia, puedes preguntarme lo que necesites y responder\u00e9 de la mejor manera posible. \u00bfNecesitas hablar con un ejecutivo?",
+        "fecha": "02/18/20",
+        "hora": "13:29:46"
+      }
+    },
+    {
+      "true": {
+        "comentario": "identifica correctamente el macht",
+        "Usuario": "empleos en calle center",
+        "Bot": "Si tenemos vacantes, con tus datos nos podemos poner en contacto contigo para dar inicio a un proceso de reclutamiento. Dime cu\u00e1l es tu nombre",
+        "usuario": "hola",
+        "bot": "Hola. Soy el asistente virtual de Grupo Vanguardia. Puedo ayudarte con informaci\u00f3n de la empresa, y tambi\u00e9n atender algunas de tus solicitudes, como aplicar a vacantes o a los servicios que ofrecemos. \u00bfEn qu\u00e9 te puedo ayudar?",
+        "fecha": "02/18/20",
+        "hora": "13:30:44"
+      }
+    },
+    {
+      "false": {
+        "comentario": "no hizo el macht de lead ventas",
+        "Usuario": "Buen d\u00eda, estamos buscando un servicio para llamar a nuestros clientes y agendar citas. Quisiera saber si ustedes brindaban este servicio?",
+        "Bot": "\u00bfPodr\u00edas ser m\u00e1s espec\u00edfico?",
+        "usuario": "estamos buscando un servicio para llamar a nuestros clientes y agendar citas. Quisiera saber si ustedes brindaban este servicio?",
+        "bot": "\u00bfPodr\u00edas ser m\u00e1s espec\u00edfico?",
+        "fecha": "02/18/20",
+        "hora": "13:32:07"
+      }
+    },
+    {
+      "false": {
+        "comentario": "no identifico de todo el tema del que habla el usuario",
+        "Usuario": "me estan llamando de contact center ofreciendo un regalo",
+        "Bot": "Si tenemos vacantes, con tus datos nos podemos poner en contacto contigo para dar inicio a un proceso de reclutamiento. Dime cu\u00e1l es tu nombre",
+        "usuario": "es cierto alguna campa\u00f1a?",
+        "bot": "Dime un tel\u00e9fono de contacto",
+        "fecha": "02/18/20",
+        "hora": "13:34:16"
+      }
+    },
+    {
+      "false": {
+        "comentario": "Debio ser reconocido como lead de ventas",
+        "Usuario": "Hola, estamos interesados en agentes solo para chat de nuestro sitio web.",
+        "Bot": "\u00bfPodr\u00edas ser m\u00e1s espec\u00edfico?",
+        "usuario": "hay un plan que tenga eso ?",
+        "bot": "\u00bfPodr\u00edas ser m\u00e1s espec\u00edfico?",
+        "fecha": "02/18/20",
+        "hora": "13:35:32"
+      }
+    },
+    {
+      "true": {
+        "comentario": "en el primero identifico el leads de venta, en el segundo no pero es una buena respuesta",
+        "Usuario": "buen d\u00eda, me gustar\u00eda conocer sus servicios o paquetes",
+        "Bot": "Para nosotros es muy importante comprender que servicio requiere cada empresa. Contamos con servicios como, Contact Center, Servicios BPO, Back Office, Mesa de Servicios, Telemarketing, Encuestas Telef\u00f3nicas, Cobranza, Fieldmarketing, CiberSeguridad.",
+        "usuario": "hola buen dia me podria decir en que consiste el servicio",
+        "bot": "Hola. Soy el asistente virtual de Grupo Vanguardia. Puedo ayudarte con informaci\u00f3n de la empresa, y tambi\u00e9n atender algunas de tus solicitudes, como aplicar a vacantes o a los servicios que ofrecemos. \u00bfEn qu\u00e9 te puedo ayudar?",
+        "fecha": "02/18/20",
+        "hora": "13:41:55"
+      }
+    },
+    {
+      "false": {
+        "comentario": "al principio no identifica el lead vacantes, pero posteriormente si",
+        "Usuario": "Hay bacantes ?",
+        "Bot": "\u00bfPodr\u00edas ser m\u00e1s espec\u00edfico?",
+        "usuario": "Como funciona call center",
+        "bot": "Si tenemos vacantes, con tus datos nos podemos poner en contacto contigo para dar inicio a un proceso de reclutamiento. Dime cu\u00e1l es tu nombre",
+        "fecha": "02/18/20",
+        "hora": "14:04:27"
+      }
+    },
+    {
+      "false": {
+        "comentario": "en el primer comentario no identifica que es una cotizacion y en el segundo no reconoce la intencion",
+        "Usuario": "hola\r\nnecesito una cotizacion",
+        "Bot": "Hola. Soy el asistente virtual de Grupo Vanguardia. Puedo ayudarte con informaci\u00f3n de la empresa, y tambi\u00e9n atender algunas de tus solicitudes, como aplicar a vacantes o a los servicios que ofrecemos. \u00bfEn qu\u00e9 te puedo ayudar?",
+        "usuario": "es un servico como skype",
+        "bot": "\u00bfPodr\u00edas ser m\u00e1s espec\u00edfico?",
+        "fecha": "02/18/20",
+        "hora": "14:05:56"
+      }
+    },
+    {
+      "false": {
+        "comentario": "respoonde algo cuando no deberia haber entendido",
+        "Usuario": "me gusta la pizza y los sombreros rojos",
+        "Bot": "Entiendo. Espera en el chat, te atender\u00e1 un ejecutivo. Si quieres hablar conmigo otra vez, s\u00f3lo escribe 'chatbot'",
+        "usuario": "",
+        "bot": "",
+        "fecha": "02/19/20",
+        "hora": "22:34:49"
+      }
+    },
+    {
+      "false": {
+        "comentario": "bug",
+        "Usuario": "mi correo es jose.e.casillas@gmail.com",
+        "Bot": "-error: 'NoneType' object is not subscriptable en 76-",
+        "usuario": "",
+        "bot": "",
+        "fecha": "02/19/20",
+        "hora": "22:38:33"
+      }
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the header */
+  .header {
+      background-color: #f1f1f1;
+      text-align: center;
+      font-size: 15px;
+  }
+  
+  /* Create three unequal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 10px;
+    /*height: 500px; */
+  }
+  
+  /* Left and right column */
+  .column.side {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 15%;
+  }
+  
+  /* Middle column */
+  .column.middle {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 85%;
+  }
+  
+  
+  input.radio {
+    float: left;
+    width: 15%;
+    display: flex;
+    margin: 5% 50% 5% 5%;
+    -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+       -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+            box-sizing: border-box;
+  }
+  
+  textarea, input.ttl, label{
+    float: left;
+    width: 100%;
+    display: flex;
+    margin: 1%;
+    -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+       -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+            box-sizing: border-box;
+  }
+  
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the footer */
+  .footer {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+  
+  button{
+    background: #8D8CFF;
+    background-image: -webkit-linear-gradient(top, #8D8CFF, #99CDFF);
+    background-image: -moz-linear-gradient(top, #8D8CFF, #99CDFF);
+    background-image: -ms-linear-gradient(top, #8D8CFF, #99CDFF);
+    background-image: -o-linear-gradient(top, #8D8CFF, #99CDFF);
+    background-image: linear-gradient(to bottom, #8D8CFF, #99CDFF);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;text-shadow: 3px 2px 1px #9daef5;
+    -webkit-box-shadow: 6px 5px 24px #666666;
+    -moz-box-shadow: 6px 5px 24px #666666;
+    box-shadow: 6px 5px 24px #666666;font-family: Arial;
+    color: #fafafa;
+    font-size: 27px;
+    padding: 19px;
+    text-decoration: none;
+    margin: 5%;
+  }
+  
+  button:hover {  background: #99CDFF;  background-image: -webkit-linear-gradient(top, #99CDFF, #8D8CFF);
+    background-image: -moz-linear-gradient(top, #99CDFF, #8D8CFF);
+    background-image: -ms-linear-gradient(top, #99CDFF, #8D8CFF);
+    background-image: -o-linear-gradient(top, #99CDFF, #8D8CFF);
+    background-image: linear-gradient(to bottom, #99CDFF, #8D8CFF);  text-decoration: none;
+  }
+  
+
+  thead tr th {
+    text-align: center;
+    background-color: #9daef5;
+  }
+
+  #Tabla #vistaT tr {
+    height: 150px;
+    border-color:#666666;
+    border-style: solid;
+    border-width: 2px;
+  }
+  
+  @media (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    table {
+        width:100%;
+    }
+    thead {
+        display: none;
+    }
+    tr:nth-of-type(2n) {
+        background-color: inherit;
+    }
+    tr td:first-child {
+        background: #f0f0f0;
+        font-weight:bold;
+        font-size:1.3em;
+    }
+    tbody td {
+        display: block;
+        text-align:center;
+    }
+    tbody td:before {
+        content: attr(data-th);
+        display: block;
+        text-align:center;
+    }
+}
